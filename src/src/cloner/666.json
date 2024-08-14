@@ -1,1 +1,3325 @@
-
+{
+    "name": "SKR MarketPlace GT",
+    "verificationLevel": "LOW",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": null,
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "THE RULES",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "2049"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛔・-͟͟͞𝐒𝐄𝐑𝐕𝐄𝐑・𝐑𝐔𝐋𝐄𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "THE RULES",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2049"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛔・-͟͟͞𝐌𝐀𝐑𝐊𝐄𝐓𝐏𝐋𝐀𝐂𝐄・𝐑𝐔𝐋𝐄𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "THE RULES",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "⛔・-͟͟͞𝐌𝐈𝐃𝐌𝐀𝐍・𝐑𝐔𝐋𝐄𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "THE RULES",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Midman",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "IMPORTANT",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "1024",
+                        "deny": "133121"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📣・-͟͟͞𝐍𝐄𝐖𝐒",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "137439216704",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "👋🏻・-͟͟͞𝐖𝐄𝐋𝐂𝐎𝐌𝐄",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📢・-͟͟͞𝐃𝐀𝐈𝐋𝐘・𝐐𝐔𝐄𝐒𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💎・-͟͟͞𝐂𝐇𝐀𝐍𝐍𝐄𝐋・𝐃𝐄𝐒𝐂𝐑𝐈𝐏𝐓𝐈𝐎𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・-͟͟͞𝐏𝐔𝐍𝐈𝐒𝐇・𝐋𝐎𝐆",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🔮˚₊·-͟͟͞𝐁𝐎𝐎𝐒𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "133121"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎁˚₊·-͟͟͞𝐆𝐈𝐕𝐄𝐀𝐖𝐀𝐘",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "IMPORTANT",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "134144"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "263232",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Midman",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "MIDMAN SERVICES",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "134144"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・-͟͟͞𝐓𝐈𝐂𝐊𝐄𝐓・𝐌𝐈𝐃𝐌𝐀𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "MIDMAN SERVICES",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "134144"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Midman",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🎫・-͟͟͞𝐓𝐈𝐂𝐊𝐄𝐓・𝐒𝐔𝐏𝐏𝐎𝐑𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "MIDMAN SERVICES",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "134144"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Midman",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "general",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・-͟͟͞𝐆𝐄𝐍𝐄𝐑𝐀𝐋",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "general",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "33792",
+                                "deny": "16384"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💬・-͟͟͞𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "general",
+                        "topic": "Promote Here = Mute 24 Hours",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "33792",
+                                "deny": "16384"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤖・-͟͟͞𝐂𝐌𝐃",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "general",
+                        "topic": "Don't Promote Here or Mute 3 Day!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "33792",
+                                "deny": "16384"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "🔊・-͟͟͞𝐏𝐑𝐈𝐕𝐀𝐓𝐄",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "general",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "32768",
+                                "deny": "17408"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "🤡・-͟͟͞𝐏𝐑𝐒𝐈𝐎𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": "Promote Here Instant Banned!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "132096"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "66560",
+                                "deny": "377957302337"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "💰・-͟͟͞𝐑𝐄𝐒𝐄𝐋𝐋𝐄𝐑・𝐂𝐇𝐀𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "general",
+                        "topic": "",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Reseller dls",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📥・-͟͟͞𝐒𝐄𝐑𝐕𝐄𝐑・𝐒𝐔𝐆𝐆𝐄𝐒𝐓𝐈𝐎𝐍",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "general",
+                        "topic": "promote here = mute 3d",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "32768",
+                                "deny": "17408"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "reputation",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝・-͟͟͞𝐑𝐄𝐏",
+                        "nsfw": false,
+                        "rateLimitPerUser": 5,
+                        "parent": "reputation",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝・-͟͟͞𝐁𝐋𝐀𝐂𝐊𝐋𝐈𝐒𝐓",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "reputation",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "📝・-͟͟͞𝐑𝐄𝐏𝐎𝐑𝐓・𝐒𝐂𝐀𝐌𝐌𝐄𝐑",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "reputation",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "mod-sup-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "reputation",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "moderator-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "reputation",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Black Market",
+                "permissions": [
+                    {
+                        "roleName": "Mods",
+                        "allow": "8192",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1777388463780928"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🔴】booster-lounge",
+                        "nsfw": false,
+                        "rateLimitPerUser": 900,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🔒】lock-id",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": "This Channel For IDR Payment! 🇮🇩",
+                        "permissions": [
+                            {
+                                "roleName": "Cooldown",
+                                "allow": "0",
+                                "deny": "377957124096"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🔒】lock-international",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": "This Channel For Non IDR Payment! 🇺🇸",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "32768"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Coldown int",
+                                "allow": "0",
+                                "deny": "377957124096"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👾】account",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": "This Channel For Account That Have Value Like Role, Growtoken Item, Etc!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1777388463780928"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "33792",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🤖】bot-account",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": "Only for CID and bot accounts.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "32768",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💻】rdp-panel-vps",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1777388463780928"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🖥】license-proxy-vpn",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1777388463780928"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【📜】script-method",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1777388463780928"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎮】cross-trade",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "34816",
+                                "deny": "1143500682970112"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💰】currency",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "Black Market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1777388463780928"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "8192",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "8192",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "cps market",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🟣】booster-lounge",
+                        "nsfw": false,
+                        "rateLimitPerUser": 900,
+                        "parent": "cps market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🔏】cps-lock",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "cps market",
+                        "topic": "U may buy/ sell locks, cc, lray, mray, mneck here",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🧽】cps-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "cps market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👾】cps-account",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "cps market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "34816",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌏】cps-world",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "cps market",
+                        "topic": "u may buy/ sell/ promote ur world here",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💎】cps-gems",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "cps market",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "SERVICE",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1024"
+                    },
+                    {
+                        "roleName": "Prisoner",
+                        "allow": "0",
+                        "deny": "274877909057"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🟡】booster-lounge",
+                        "nsfw": false,
+                        "rateLimitPerUser": 900,
+                        "parent": "SERVICE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🤖】bot-service",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "SERVICE",
+                        "topic": "spam, pnb, ptht, move, etc",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909057"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【♻】swap",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "SERVICE",
+                        "topic": "farm swap",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909057"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【✨】sulap",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "SERVICE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909057"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💼】jastip",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "SERVICE",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909057"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "LEGAL",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "164864"
+                    },
+                    {
+                        "roleName": "Prisoner",
+                        "allow": "0",
+                        "deny": "274877958208"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🟢】booster-lounge",
+                        "nsfw": false,
+                        "rateLimitPerUser": 900,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🪪】growid-name",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "Only for selling in-game GrowID username",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🧱】foreground-and-seed",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "farmables go https://discord.com/channels/1029716623977873501/1196424565950259232",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌌】background-and-seed",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💎】gems",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "break/ harvest/ soil",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🚜】farm-tools",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🍔】consumables",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👗】clothing-and-equipment",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎣】fishing-items",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌱】farm-world",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "This channel is for farm world only",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🧑🌾】farmables",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "item/seed only, no farm| allowed: lgrid, pepper, ftank, chand, ice, venus, htb, sugarcane, fence",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【📦】ssp-rsp",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🧪】science-items",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🔮】weather-jammer-gtoken-locks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": "u may promote weather, jammer, gtoken items, or small/big/huge locks here",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎨】paint-and-dye",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌎】world",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【❕】quest-and-service",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【✨】startopia-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🩺】surgery-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌿】essence",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【⚔】clash-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👺】crime-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👻】ghost-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🛡】guild-item",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💠】geiger-items",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "164864"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💣】other-pack",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "LEGAL",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877958208"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "EVENTS",
+                "permissions": [
+                    {
+                        "roleName": "Member",
+                        "allow": "1024",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Prisoner",
+                        "allow": "0",
+                        "deny": "274877910080"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "2048",
+                        "deny": "1707002539705344"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎪-】carnival",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🥳】anniversary-week",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🥔】ubiweek",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🧧】lunar-new-year",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【♥】valentine",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【☘】st-patrick",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【📦】equinox-week",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🥚】easter",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💰】grow4good",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌮】cinco-de-mayo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🍍】super-pineapple-party",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🐎】pegasus-pursuit",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": "26-29 June?",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🌞】summer-festival",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【💥】garudas-glory",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👥】player-appreciation-week",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎑】harvest-festival",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🍻】wonder-week",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎃】halloween",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【👽】aliens",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎁】thanksgiving-week",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【❄】winter-festival",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🎈】ballon-warz",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "EVENTS",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1707002539705344"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877910080"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "log",
+                "permissions": [
+                    {
+                        "roleName": "Prisoner",
+                        "allow": "0",
+                        "deny": "274877909056"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1024"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "delete-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "1024",
+                                "deny": "805314576"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "edited-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "image-delete",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "bulk-delete",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "invites",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "logs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            },
+                            {
+                                "roleName": "Support",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "mods-cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "log",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "GULAG",
+                "permissions": [
+                    {
+                        "roleName": "Prisoner",
+                        "allow": "1024",
+                        "deny": "274878040129"
+                    },
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "134145"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "【🆔】cid",
+                        "nsfw": false,
+                        "rateLimitPerUser": 7200,
+                        "parent": "GULAG",
+                        "topic": "This Channel For Create ID Service!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Member",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Prisoner",
+                                "allow": "0",
+                                "deny": "274877909056"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "ticket",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Support",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": []
+            },
+            {
+                "name": "midman ticket",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Midman",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": []
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "Leader",
+            "color": "#e4b400",
+            "hoist": true,
+            "permissions": "1071698660937",
+            "mentionable": false,
+            "position": 26,
+            "isEveryone": false
+        },
+        {
+            "name": "PowerKuy",
+            "color": "#f600ff",
+            "hoist": true,
+            "permissions": "1071631421001",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "CO-Leader",
+            "color": "#00bdff",
+            "hoist": true,
+            "permissions": "1071698660937",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "BOT",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Mods",
+            "color": "#d3d3d3",
+            "hoist": false,
+            "permissions": "951372211782",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Support",
+            "color": "#f62222",
+            "hoist": false,
+            "permissions": "10967638732353",
+            "mentionable": false,
+            "position": 21,
+            "isEveryone": false
+        },
+        {
+            "name": "Midman",
+            "color": "#ff7700",
+            "hoist": true,
+            "permissions": "831180369409",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "SCAMMER ALERT MUST USE MM",
+            "color": "#43007e",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Prisoner",
+            "color": "#020101",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Cooldown",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Coldown int",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Trusted",
+            "color": "#cbb3ff",
+            "hoist": false,
+            "permissions": "552007337792",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Reseller dls",
+            "color": "#7aedff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "Verified Username",
+            "color": "#3498db",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 13,
+            "isEveryone": false
+        },
+        {
+            "name": "500 Reputation",
+            "color": "#5cf5ee",
+            "hoist": false,
+            "permissions": "414534962688",
+            "mentionable": false,
+            "position": 12,
+            "isEveryone": false
+        },
+        {
+            "name": "Trainee Midman",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 11,
+            "isEveryone": false
+        },
+        {
+            "name": "giveaways",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "964255259648",
+            "mentionable": false,
+            "position": 10,
+            "isEveryone": false
+        },
+        {
+            "name": "Toxic Bypass",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "968552091200",
+            "mentionable": false,
+            "position": 9,
+            "isEveryone": false
+        },
+        {
+            "name": "Emote Manager",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "9868798316097",
+            "mentionable": false,
+            "position": 8,
+            "isEveryone": false
+        },
+        {
+            "name": "Rules",
+            "color": "#2ecc71",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 7,
+            "isEveryone": false
+        },
+        {
+            "name": "Member",
+            "color": "#36e91e",
+            "hoist": false,
+            "permissions": "71335148883457",
+            "mentionable": false,
+            "position": 6,
+            "isEveryone": false
+        },
+        {
+            "name": "target ban",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 5,
+            "isEveryone": false
+        },
+        {
+            "name": "Ping Police",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 4,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1970324836974592",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1723159551200,
+    "guildID": "1271175376445505567",
+    "id": "1271248039234895872",
+    "iconURL": "https://cdn.discordapp.com/icons/1271175376445505567/83654366d3589c7027a9d8708d938792.webp"
+}
